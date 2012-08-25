@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D761EEA715E8F2C7008110B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D761EEA615E8F2C7008110B4 /* Cocoa.framework */; };
+		D761EEB115E8F2C7008110B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D761EEAF15E8F2C7008110B4 /* InfoPlist.strings */; };
+		D761EEB315E8F2C7008110B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D761EEB215E8F2C7008110B4 /* main.m */; };
+		D761EEB715E8F2C7008110B4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D761EEB515E8F2C7008110B4 /* Credits.rtf */; };
+		D761EEBA15E8F2C8008110B4 /* JGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D761EEB915E8F2C8008110B4 /* JGAppDelegate.m */; };
+		D761EEBD15E8F2C8008110B4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D761EEBB15E8F2C8008110B4 /* MainMenu.xib */; };
+		D761EEC515E8F35F008110B4 /* JGMailTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D761EEC415E8F35F008110B4 /* JGMailTextField.m */; };
+		D761EEC815E8F375008110B4 /* JGGUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = D761EEC715E8F375008110B4 /* JGGUIController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D761EEA215E8F2C7008110B4 /* JGMailTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGMailTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D761EEA615E8F2C7008110B4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D761EEA915E8F2C7008110B4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D761EEAA15E8F2C7008110B4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D761EEAB15E8F2C7008110B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D761EEAE15E8F2C7008110B4 /* JGMailTextField-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JGMailTextField-Info.plist"; sourceTree = "<group>"; };
+		D761EEB015E8F2C7008110B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D761EEB215E8F2C7008110B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D761EEB415E8F2C7008110B4 /* JGMailTextField-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JGMailTextField-Prefix.pch"; sourceTree = "<group>"; };
+		D761EEB615E8F2C7008110B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D761EEB815E8F2C7008110B4 /* JGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGAppDelegate.h; sourceTree = "<group>"; };
+		D761EEB915E8F2C8008110B4 /* JGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGAppDelegate.m; sourceTree = "<group>"; };
+		D761EEBC15E8F2C8008110B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D761EEC315E8F35F008110B4 /* JGMailTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGMailTextField.h; sourceTree = "<group>"; };
+		D761EEC415E8F35F008110B4 /* JGMailTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGMailTextField.m; sourceTree = "<group>"; };
+		D761EEC615E8F375008110B4 /* JGGUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGGUIController.h; sourceTree = "<group>"; };
+		D761EEC715E8F375008110B4 /* JGGUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGGUIController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D761EE9F15E8F2C7008110B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D761EEA715E8F2C7008110B4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D761EE9715E8F2C7008110B4 = {
+			isa = PBXGroup;
+			children = (
+				D761EEAC15E8F2C7008110B4 /* JGMailTextField */,
+				D761EEA515E8F2C7008110B4 /* Frameworks */,
+				D761EEA315E8F2C7008110B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D761EEA315E8F2C7008110B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D761EEA215E8F2C7008110B4 /* JGMailTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D761EEA515E8F2C7008110B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D761EEA615E8F2C7008110B4 /* Cocoa.framework */,
+				D761EEA815E8F2C7008110B4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D761EEA815E8F2C7008110B4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D761EEA915E8F2C7008110B4 /* AppKit.framework */,
+				D761EEAA15E8F2C7008110B4 /* CoreData.framework */,
+				D761EEAB15E8F2C7008110B4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D761EEAC15E8F2C7008110B4 /* JGMailTextField */ = {
+			isa = PBXGroup;
+			children = (
+				D761EEB815E8F2C7008110B4 /* JGAppDelegate.h */,
+				D761EEB915E8F2C8008110B4 /* JGAppDelegate.m */,
+				D761EEC615E8F375008110B4 /* JGGUIController.h */,
+				D761EEC715E8F375008110B4 /* JGGUIController.m */,
+				D761EEC315E8F35F008110B4 /* JGMailTextField.h */,
+				D761EEC415E8F35F008110B4 /* JGMailTextField.m */,
+				D761EEBB15E8F2C8008110B4 /* MainMenu.xib */,
+				D761EEAD15E8F2C7008110B4 /* Supporting Files */,
+			);
+			path = JGMailTextField;
+			sourceTree = "<group>";
+		};
+		D761EEAD15E8F2C7008110B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D761EEAE15E8F2C7008110B4 /* JGMailTextField-Info.plist */,
+				D761EEAF15E8F2C7008110B4 /* InfoPlist.strings */,
+				D761EEB215E8F2C7008110B4 /* main.m */,
+				D761EEB415E8F2C7008110B4 /* JGMailTextField-Prefix.pch */,
+				D761EEB515E8F2C7008110B4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D761EEA115E8F2C7008110B4 /* JGMailTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D761EEC015E8F2C8008110B4 /* Build configuration list for PBXNativeTarget "JGMailTextField" */;
+			buildPhases = (
+				D761EE9E15E8F2C7008110B4 /* Sources */,
+				D761EE9F15E8F2C7008110B4 /* Frameworks */,
+				D761EEA015E8F2C7008110B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGMailTextField;
+			productName = JGMailTextField;
+			productReference = D761EEA215E8F2C7008110B4 /* JGMailTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D761EE9915E8F2C7008110B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JG;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "pq-developing.com";
+			};
+			buildConfigurationList = D761EE9C15E8F2C7008110B4 /* Build configuration list for PBXProject "JGMailTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D761EE9715E8F2C7008110B4;
+			productRefGroup = D761EEA315E8F2C7008110B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D761EEA115E8F2C7008110B4 /* JGMailTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D761EEA015E8F2C7008110B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D761EEB115E8F2C7008110B4 /* InfoPlist.strings in Resources */,
+				D761EEB715E8F2C7008110B4 /* Credits.rtf in Resources */,
+				D761EEBD15E8F2C8008110B4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D761EE9E15E8F2C7008110B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D761EEB315E8F2C7008110B4 /* main.m in Sources */,
+				D761EEBA15E8F2C8008110B4 /* JGAppDelegate.m in Sources */,
+				D761EEC515E8F35F008110B4 /* JGMailTextField.m in Sources */,
+				D761EEC815E8F375008110B4 /* JGGUIController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D761EEAF15E8F2C7008110B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D761EEB015E8F2C7008110B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D761EEB515E8F2C7008110B4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D761EEB615E8F2C7008110B4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D761EEBB15E8F2C8008110B4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D761EEBC15E8F2C8008110B4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D761EEBE15E8F2C8008110B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D761EEBF15E8F2C8008110B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D761EEC115E8F2C8008110B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JGMailTextField/JGMailTextField-Prefix.pch";
+				INFOPLIST_FILE = "JGMailTextField/JGMailTextField-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D761EEC215E8F2C8008110B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JGMailTextField/JGMailTextField-Prefix.pch";
+				INFOPLIST_FILE = "JGMailTextField/JGMailTextField-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D761EE9C15E8F2C7008110B4 /* Build configuration list for PBXProject "JGMailTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D761EEBE15E8F2C8008110B4 /* Debug */,
+				D761EEBF15E8F2C8008110B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D761EEC015E8F2C8008110B4 /* Build configuration list for PBXNativeTarget "JGMailTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D761EEC115E8F2C8008110B4 /* Debug */,
+				D761EEC215E8F2C8008110B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D761EE9915E8F2C7008110B4 /* Project object */;
+}
