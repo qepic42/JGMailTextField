@@ -1,4 +1,4 @@
 JGMailTextField
 ===============
 
-A email validation NSTextField
+An email validation NSTextField
